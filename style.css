@@ -264,26 +264,26 @@ p {
 
 /* End Hero Section */
 
-/* Services Section */
-#services .services {
+/* Educations Section */
+#educations .educations {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#services .service-top {
+#educations .education-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-#services .service-bottom {
+#education .education-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#services .service-item {
+#educations .education-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -298,7 +298,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#services .service-item::after {
+#educations .education-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -309,22 +309,22 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
+#educations .education-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#services .service-item h2 {
+#educations .education-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#services .service-item p {
+#educations .education-item p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/* End Educations Section */
 
 /* Projects section */
 #projects .projects {
@@ -582,12 +582,12 @@ p {
 	}
 	/* End Hero */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
+	/* Educations Section */
+	#educations .education-bottom .education-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
+	/* End Educations Section */
 
 	/* Project */
 	#projects .project-item {
@@ -695,7 +695,7 @@ p {
 	}
 	/* End header */
 
-	#services .service-bottom .service-item {
+	#educations .education-bottom .education-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
